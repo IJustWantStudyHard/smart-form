@@ -1,17 +1,20 @@
 {
-  "name": "smart-form",
+  "name": "zmx-smart-form",
   "version": "0.1.0",
+  "description": "a smart form",
+  "main": "lib/smart-form.umd.min.js",
   "private": false,
   "license": "MIT",
+  "author": "zmx",
   "repository": {
     "type":"git",
-    "url": "git@github.com:IJustWantStudyHard/smart-form.git"
+    "url": "https://github.com/IJustWantStudyHard/smart-form.git"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build-npm": "vue-cli-service build --target lib --name smart-form ./src/index.js"
+    "lib": "vue-cli-service build --target lib --name smart-form --dest lib ./packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",

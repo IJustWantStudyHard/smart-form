@@ -1,7 +1,7 @@
-import Form from './src/form';
+import SmartForm from './src/form';
 
-Form.install = Vue => {
-    Vue.component(Form.name, Tree);
+SmartForm.install = Vue => {
+    Vue.component(SmartForm.name, SmartForm);
 }
 
-export default Form;
+export default SmartForm;
